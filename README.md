@@ -58,13 +58,13 @@ different metrics. Artificial Neural Networks gave good results on both the trai
   since it can still keep intact the information necessary for prediction.
 
 
-  ##  Metric For Evaluation  ##
+## Metric For Evaluation ##
   * Since it's a classification problem, various metrics like accuracy score, recall score, precision score, f1 score, classification report, and confusion matrix were
     determined to evaluate the performance of different models. However, this is a case where the dataset is highly imbalanced hence metrics like accuracy score and
     precision score could not give a good idea about how well the model is performing. Recall score gives a better idea regarding the model's performance.
 
 
-  ## Best Performing Model ##
+## Best Performing Model ##
 * All the supervised machine learning models gave good accuracy and precision scores but only the decision tree could give a decent recall score (indicative that other
   models were not able to classify the fraudulent class properly).
 * Artificial Neural Networks gave good results on both the training and test datasets. This might be because neural networks especially deep neural networks are highly
